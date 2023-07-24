@@ -1,0 +1,11 @@
+Componentes en React:
+Los componentes son bloques de construcción fundamentales en React, una biblioteca de JavaScript para construir interfaces de usuario. Permiten dividir la interfaz de usuario en piezas independientes y reutilizables, lo que facilita la construcción de aplicaciones complejas. En React, hay dos tipos principales de componentes:
+
+Componentes funcionales: Son funciones de JavaScript que reciben propiedades (props) como argumentos y devuelven elementos de React que describen lo que se debe mostrar en la interfaz. Son la forma más sencilla de definir componentes.
+
+Componentes de clase: Son clases de JavaScript que extienden la clase React.Component. Estos componentes tienen un estado interno y ofrecen más funcionalidades que los componentes funcionales. Sin embargo, con la introducción de React Hooks en versiones posteriores de React, los componentes funcionales pueden manejar estados y otras funcionalidades previamente limitadas a los componentes de clase.
+
+
+En React, se utiliza className en lugar de class para definir clases CSS en los elementos JSX. La razón detrás de esto es que JSX es una extensión de JavaScript que se utiliza para representar los elementos de la interfaz de usuario en React, y el atributo class es una palabra reservada en JavaScript para definir clases.
+Al utilizar className en lugar de class, se evitan conflictos con la sintaxis de JavaScript y se asegura que el código JSX sea válido y funcione correctamente. De esta manera, puedes asignar clases CSS a los elementos sin preocuparte por errores de sintaxis.
+
